@@ -5,21 +5,21 @@
 class Try < Formula
   desc "Fresh directories for every vibe - ephemeral workspace manager"
   homepage "https://github.com/amulcse/try"
-  version "1.7.5"
+  version "1.8.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/amulcse/try/releases/download/v1.7.5/try_darwin_amd64.tar.gz"
-      sha256 "167997f67ed21c0f335019de4291fbace5902fe2e3198164ffb26d0af78d712b"
+      url "https://github.com/amulcse/try/releases/download/v1.8.0/try_darwin_amd64.tar.gz"
+      sha256 "07909ace74e693028c455c8e9d538740fe5516129d149004036e9ab97964dbe9"
 
       def install
         bin.install "try"
       end
     end
     on_arm do
-      url "https://github.com/amulcse/try/releases/download/v1.7.5/try_darwin_arm64.tar.gz"
-      sha256 "62aac634f19b3213c67d20969a3346f3cbf3f24c84480e4164a7f77db6d630af"
+      url "https://github.com/amulcse/try/releases/download/v1.8.0/try_darwin_arm64.tar.gz"
+      sha256 "b3926d214af7559d104d943f43f3fb052510ab3d7128f155da918b5874ae2132"
 
       def install
         bin.install "try"
@@ -30,8 +30,8 @@ class Try < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/amulcse/try/releases/download/v1.7.5/try_linux_amd64.tar.gz"
-        sha256 "a7083fb2e98717c7d736e064c288a12c63ec2c9194570b0cf08887fd53cc2166"
+        url "https://github.com/amulcse/try/releases/download/v1.8.0/try_linux_amd64.tar.gz"
+        sha256 "c62b8870420429a816c703001b396ea55ef4265550efc742676a0c6692df3550"
 
         def install
           bin.install "try"
@@ -40,8 +40,8 @@ class Try < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/amulcse/try/releases/download/v1.7.5/try_linux_arm64.tar.gz"
-        sha256 "7a7f90b98cccca9ed18b4142f46965606517ee84d8cd0fc1bf30e6a8256c48e4"
+        url "https://github.com/amulcse/try/releases/download/v1.8.0/try_linux_arm64.tar.gz"
+        sha256 "ed21206f589986449273a15e5440b690a018488da3d8c72f81d945d2c7e7cea1"
 
         def install
           bin.install "try"
